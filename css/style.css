@@ -14,11 +14,11 @@ input[type=submit] {
 @media (min-width: 768px) {
   input[type=submit] {
     background: #fff;
-    bottom: 2.75rem;
-    left: 2.55rem;
+    /* bottom: 2.75rem;
+    left: 2.55rem; */
     height: 2.75rem;
     padding: 0 3rem;
-    position: absolute;
+    /* position: absolute; */
   }
 }
 
@@ -107,7 +107,7 @@ body {
 
 input[type=email],
 input[type=text] {
-  background: none;
+  /* background: none; */
   border: none;
   border-bottom: 2px solid #74bdb7;
   box-sizing: border-box;
@@ -167,7 +167,7 @@ input[type=submit]:focus {
 
 label {
   display: inline-block;
-  transform: translate(0, 1.25rem);
+  /* transform: translate(0, 1.25rem); */
   transition: 0.15s;
 }
 
@@ -197,7 +197,7 @@ main {
 }
 
 .text-small-uppercase {
-  color: #74bdb7;
+  /* color: #74bdb7; */
   font: 700 .75rem 'Montserrat';
   letter-spacing: .08rem;
   text-transform: uppercase;
